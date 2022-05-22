@@ -195,7 +195,7 @@ int main(){
 
             if(exit == true) break;
 
-        } catch (std::exception& ex){
+        } catch (const std::exception& ex){
             std::cerr << ex.what() << std::endl;
         }
     }
