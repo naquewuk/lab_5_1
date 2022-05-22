@@ -26,9 +26,9 @@ public:
 
     virtual std::string Info() const {
         return "Airplane: "    + Brand  + " - "   + Model + "\n"
-                                                            "Max Speed of " + Brand  + ": "  + std::to_string(MaxSpeed) + "\n"
-                                                                                                                          "Max flight altitude of " + Brand + ": " + std::to_string(MaxHeight) + "\n"
-                                                                                                                                                                                                 "Price: " + std::to_string(Price());
+               "Max Speed of " + Brand  + ": "  + std::to_string(MaxSpeed) + "\n"
+               "Max flight altitude of " + Brand + ": " + std::to_string(MaxHeight) + "\n"
+               "Price: " + std::to_string(Price());
     }
 
     virtual int Price() const { return (MaxSpeed * 1000) + (MaxHeight * 100); }
@@ -65,9 +65,9 @@ public:
 
     std::string Info() const override{
         return "Airplane: " + Airplane::getBrand()  + " - "   + Airplane::getModel() + "\n"
-                                                                                       "Max Speed of " + Airplane::getBrand()  + ": "  + std::to_string(Airplane::getMaxSpeed()) + "\n"
-                                                                                                                                                                                   "Max flight altitude of " + Airplane::getBrand() + ": " + std::to_string(Airplane::getMaxHeight()) + "\n"
-                                                                                                                                                                                                                                                                                        "Price: " + std::to_string(Price());
+               "Max Speed of " + Airplane::getBrand()  + ": "  + std::to_string(Airplane::getMaxSpeed()) + "\n"
+               "Max flight altitude of " + Airplane::getBrand() + ": " + std::to_string(Airplane::getMaxHeight()) + "\n"
+               "Price: " + std::to_string(Price());
     }
 
 };
@@ -91,9 +91,9 @@ public:
 
     std::string Info() const override{
         return "Airplane: " + Airplane::getBrand()  + " - "   + Airplane::getModel() + "\n"
-                                                                                       "Max Speed of " + Airplane::getBrand()  + ": "  + std::to_string(Airplane::getMaxSpeed()) + "\n"
-                                                                                                                                                                                   "Max flight altitude of " + Airplane::getBrand() + ": " + std::to_string(Airplane::getMaxHeight()) + "\n"
-                                                                                                                                                                                                                                                                                        "Price: " + std::to_string(Price());
+               "Max Speed of " + Airplane::getBrand()  + ": "  + std::to_string(Airplane::getMaxSpeed()) + "\n"
+               "Max flight altitude of " + Airplane::getBrand() + ": " + std::to_string(Airplane::getMaxHeight()) + "\n"
+               "Price: " + std::to_string(Price());
     }
 };
 
